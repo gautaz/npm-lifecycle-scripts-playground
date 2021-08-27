@@ -1,0 +1,32 @@
+{
+  "name": "npm-lifecycle-scripts-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "echo PREINSTALL && env | grep npm",
+    "install": "echo INSTALL && env | grep npm",
+    "postinstall": "echo POSTINSTALL && env | grep npm",
+    "preprepare": "echo PREPREPARE && env | grep npm",
+    "prepare": "echo PREPARE && env | grep npm",
+    "postprepare": "echo POSTPREPARE && env | grep npm",
+    "prepublish": "echo PREPUBLISH && env | grep npm",
+    "prepublishOnly": "echo PREPUBLISHONLY && env | grep npm",
+    "publish": "echo PUBLISH && env | grep npm",
+    "postpublish": "echo POSTPUBLISH && env | grep npm",
+    "prepack": "echo PREPACK && env | grep npm",
+    "postpack": "echo POSTPACK && env | grep npm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautaz/npm-lifecycle-scripts-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gautaz/npm-lifecycle-scripts-playground/issues"
+  },
+  "homepage": "https://github.com/gautaz/npm-lifecycle-scripts-playground#readme"
+}
